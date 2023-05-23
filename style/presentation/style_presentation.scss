@@ -99,63 +99,47 @@ body {
   
 }
 
-.video_paint {
-    position: relative;
-    aspect-ratio: 3.9 / 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
-    height: 100vh;
-    width: 100%;
-    padding-left: 10vh;
-    
-   .sirene {
-        position: absolute;
-        display: flex;
-        -o-object-fit: cover;
-        object-fit: cover;
-        height: 780px;
-        width: 700px;
-        border-radius: 1rem;
-        z-index: 1 !important;
-
-   }
-
-
-}
 
 .video {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.video_paint2 {
+    gap: 8vw;
     position: relative;
-    aspect-ratio: 3.9 / 5;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 0;
-    height: 100vh;
+    flex-direction: row;
+    height: 80vh;
     width: 100%;
-    padding-right: 10vh;
+    z-index: 0;
 
-   .witch1 {
-        position: absolute;
+    .sirene {
+        position: relative;
         display: flex;
         -o-object-fit: cover;
         object-fit: cover;
-        height: 780px;
-        width: 700px;
+        height: 680px;
+        width: 600px;
         border-radius: 1rem;
         z-index: 1 !important;
-
+    
+    }
+    
+    
+    .witch1 {
+        position: relative;
+        display: flex;
+        -o-object-fit: cover;
+        object-fit: cover;
+        height: 680px;
+        width: 600px;
+        border-radius: 1rem;
+        z-index: 1 !important;
+        
+    
     }
 
-  
 }
+
+
 
 .pratique2 {
     position: relative;
@@ -166,10 +150,30 @@ body {
     align-items: center;
     flex-direction: column;
 
-    .explication_paint {
+}
+
+.video_text {
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+
+    .explication_paint1 {
         display: flex;
         flex-direction: column;
-        width: 30vw;
+        width: 550px;
+        text-align: justify;
+    
+    }
+
+    .explication_paint2 {
+        display: flex;
+        flex-direction: column;
+        width: 550px;
         text-align: justify;
     
     }

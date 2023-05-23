@@ -459,8 +459,7 @@
   z-index: 1;
   height: 10rem;
   width: 100%;
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.7539609594) 20%, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.25) 60%, rgba(0, 0, 0, 0) 80%);
+  background: linear-gradient(to bottom, hsl(0, 0%, 0%) 0%, hsla(0, 0%, 0%, 0.987) 8.1%, hsla(0, 0%, 0%, 0.951) 15.5%, hsla(0, 0%, 0%, 0.896) 22.5%, hsla(0, 0%, 0%, 0.825) 29%, hsla(0, 0%, 0%, 0.741) 35.3%, hsla(0, 0%, 0%, 0.648) 41.2%, hsla(0, 0%, 0%, 0.55) 47.1%, hsla(0, 0%, 0%, 0.45) 52.9%, hsla(0, 0%, 0%, 0.352) 58.8%, hsla(0, 0%, 0%, 0.259) 64.7%, hsla(0, 0%, 0%, 0.175) 71%, hsla(0, 0%, 0%, 0.104) 77.5%, hsla(0, 0%, 0%, 0.049) 84.5%, hsla(0, 0%, 0%, 0.013) 91.9%, hsla(0, 0%, 0%, 0) 100%);
 }
 
 .accueil,
@@ -548,51 +547,34 @@ body {
   width: 750px;
 }
 
-.video_paint {
+.video {
+  gap: 8vw;
   position: relative;
-  aspect-ratio: 3.9/5;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0;
-  height: 100vh;
+  flex-direction: row;
+  height: 80vh;
   width: 100%;
-  padding-left: 10vh;
+  z-index: 0;
 }
-.video_paint .sirene {
-  position: absolute;
+.video .sirene {
+  position: relative;
   display: flex;
   -o-object-fit: cover;
   object-fit: cover;
-  height: 780px;
-  width: 700px;
+  height: 680px;
+  width: 600px;
   border-radius: 1rem;
   z-index: 1 !important;
 }
-
-.video {
-  display: flex;
-  flex-direction: row;
-}
-
-.video_paint2 {
+.video .witch1 {
   position: relative;
-  aspect-ratio: 3.9/5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 0;
-  height: 100vh;
-  width: 100%;
-  padding-right: 10vh;
-}
-.video_paint2 .witch1 {
-  position: absolute;
   display: flex;
   -o-object-fit: cover;
   object-fit: cover;
-  height: 780px;
-  width: 700px;
+  height: 680px;
+  width: 600px;
   border-radius: 1rem;
   z-index: 1 !important;
 }
@@ -606,9 +588,25 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.pratique2 .explication_paint {
+
+.video_text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  justify-content: center;
+}
+.video_text .explication_paint1 {
   display: flex;
   flex-direction: column;
-  width: 30vw;
+  width: 550px;
+  text-align: justify;
+}
+.video_text .explication_paint2 {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
   text-align: justify;
 }/*# sourceMappingURL=style_presentation.css.map */
