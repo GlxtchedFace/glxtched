@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    cursor: default;
+}
+
+
+
+@import 'modules/_mixins.scss'; 
+@import 'modules/_glitch.scss'; 
+@import 'modules/_slideshow.scss'; 
+@import 'modules/_responsive';
+@import 'modules/_navigation';
+
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
