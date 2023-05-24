@@ -60,7 +60,7 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 10vh;
-        width: 30vw;
+        width: 50%;
         text-align: justify;
     
     }
@@ -185,6 +185,7 @@ body {
         height: 100vh;
         background-color: rgb(0, 0, 0);
         scroll-behavior: smooth;
+        overflow-x: hidden;
     }
 
     .navigation {
@@ -235,6 +236,7 @@ body {
         flex-direction: column;
         padding-top: 15rem;
         z-index: -1;
+        overflow-x: hidden;
     
     
         .portrait {
@@ -252,8 +254,9 @@ body {
             display: flex;
             flex-direction: column;
             padding-top: 10vh;
-            width: 30vw;
+            width: 60%;
             text-align: justify;
+            margin-bottom: 750px;
         
         }
     }
@@ -298,7 +301,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         height: 80vh;
         width: 100%;
         z-index: 0;
@@ -308,8 +311,8 @@ body {
             display: flex;
             -o-object-fit: cover;
             object-fit: cover;
-            height: 680px;
-            width: 600px;
+            height: 580px;
+            width: 400px;
             border-radius: 1rem;
             z-index: 1 !important;
         
@@ -321,10 +324,11 @@ body {
             display: flex;
             -o-object-fit: cover;
             object-fit: cover;
-            height: 680px;
-            width: 600px;
+            height: 580px;
+            width: 400px;
             border-radius: 1rem;
             z-index: 1 !important;
+            margin-bottom: 200%;
             
         
         }
@@ -350,26 +354,18 @@ body {
         height: 100%;
         width: 100%;
         display: flex;
-        flex-direction: row;
-        gap: 10%;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
     
         .explication_paint1 {
+            position: relative;
             display: flex;
             flex-direction: column;
-            width: 550px;
+            width: 60%;
             text-align: justify;
-        
         }
     
-        .explication_paint2 {
-            display: flex;
-            flex-direction: column;
-            width: 550px;
-            text-align: justify;
-        
-        }
+    
     }
-    
-
-}
+}   
