@@ -791,3 +791,14 @@ body {
   min-width: 100vw;
 }
  */
+
+@media (max-width: 897px) {
+  .navigation.active .glitchPic1 {
+    scale: 0.6;
+    opacity: 0.5;
+  }
+
+  body {
+    overflow: hidden;
+  }
+}
