@@ -1,0 +1,12 @@
+.parallax_wrapper {
+    scroll-snap-type: y mandatory;
+    scroll-padding-bottom: 50px;
+    overflow-y: scroll;
+    
+
+    .parallax_group {
+        scroll-snap-align: start;
+
+        
+    }
+}
