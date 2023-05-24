@@ -1,0 +1,106 @@
+.parallax_wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 50px;
+            perspective: 50px;
+    background-color: black;
+
+    .intro_screen {
+
+        @include align-center;
+
+    }
+
+    .outro_screen {
+        height: 100vh;
+        @include align-center;
+        
+    }
+}
+
+
+.backToGallery {
+    height: 20vh;
+    background-color: black;
+    @include align-center;
+}
+
+.parallax_group {
+    position: relative;
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+
+
+    .parallax_layer {
+        position: absolute;
+        inset: 0;
+        @include align-center()
+    }
+
+    .deer {
+        -webkit-transform: translateZ(-50px) scale(2);
+                transform: translateZ(-50px) scale(2);
+                        z-index: -2;
+    }
+
+    .wolf {
+        -webkit-transform: translateZ(-20px) scale(1.25);
+                transform: translateZ(-20px) scale(1.25);
+                padding-left: 30rem;
+                z-index: -2;
+    }
+
+    .frog {
+        -webkit-transform: translateZ(-30px) scale(1.4);
+                transform: translateZ(-30px) scale(1.4);
+                padding-right: 40rem;
+                z-index: -2;
+    }
+
+    .snake {
+        -webkit-transform: translateZ(-40px) scale(0.6);
+                transform: translateZ(-40px) scale(0.6);
+        padding-bottom: 120vh;
+        padding-left: 60vh;
+        z-index: -2;
+   
+    }
+
+    .howl {
+        -webkit-transform: translateZ(10px) scale(1);
+                transform: translateZ(10px) scale(1);
+                z-index: 3;
+        
+    }
+    .forest {
+        -webkit-transform: translateZ(-60px) scale(2);
+        transform: translateZ(-60px) scale(2);
+        padding-bottom: 40rem;
+        z-index: 3;
+    }
+
+}
+
+
+
+#intro {
+    margin-top: 200px;
+    padding-bottom: 100px;
+    background-color: rgb(0, 0, 0) opacify($color: #000000de, $amount: 0);
+    height: 30vh;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#outro {
+    margin-top: -200px;
+    padding-bottom:800px;
+    background-color: rgb(0, 0, 0) opacify($color: #000000de, $amount: 0);
+    height: 30vh;
+    -webkit-backdrop-filter: blur(70px);
+            backdrop-filter: blur(70px);
+}

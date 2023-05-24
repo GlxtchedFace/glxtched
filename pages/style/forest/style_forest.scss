@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    cursor: default;
+}
+
+
+
+@import 'modules/_mixins.scss'; 
+@import 'modules/_parallax.scss'; 
+@import 'modules/_glitch.scss'; 
+@import 'modules/_slideshow.scss'; 
+@import 'modules/responsive';
+
+
+
+.line {
+    font-size: 3em;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.glitchBack {
+    transition: ease 0.3s;
+    opacity: 0.5;
+}
+.glitchBack:hover {
+    opacity: 1;
+    cursor: default;
+}
+
+.backGallery:hover {
+    cursor: default;
+}

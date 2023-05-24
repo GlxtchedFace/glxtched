@@ -1,0 +1,49 @@
+@media screen and (max-height: 1140px) {
+    .slideshow {
+        scale: 0.8;
+
+        .slide_wrapper {
+            padding-bottom: 2rem;
+        }
+
+        .slider {
+            border-radius: 0rem;
+        }
+
+        .slider img {
+            object-fit: contain;
+            border-radius: 2rem;
+        }
+    }
+}
+
+.backToGallery {
+    height: 10vh;
+    background-color: black;
+    @include align-center;
+}
+
+#outro {
+    margin-top: -200px;
+    padding-bottom:800px;
+    background-color: rgb(0, 0, 0) opacify($color: #000000de, $amount: 0);
+    height: 25vh;
+    -webkit-backdrop-filter: blur(70px);
+            backdrop-filter: blur(70px);
+}
+
+.outro_screen {
+    height: 100vh;
+    @include align-center;
+    
+}
+
+.parallax_group {
+    .snake {
+        padding-bottom: 60rem;
+
+    }
+    .frog {
+        padding-right: 20vh;
+    }
+}
