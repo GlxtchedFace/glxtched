@@ -4,7 +4,8 @@
   list-style: none;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
 }
 
 body {
@@ -153,6 +154,7 @@ body {
   80% {
     transform: translateX(0);
     color: #fff;
+    font-family: "Kanit";
   }
   85% {
     transform: translateX(-2px);
@@ -165,6 +167,7 @@ body {
   95% {
     transform: translateX(2px);
     color: #fff;
+    font-family: "Kanit";
   }
   100% {
     transform: translateX(0);
@@ -177,6 +180,7 @@ body {
 @keyframes glitch2 {
   0% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
   80% {
     transform: translateX(0);
@@ -185,6 +189,7 @@ body {
   85% {
     transform: translateX(4px);
     color: #00b3ff;
+    font-family: "Kanit";
   }
   90% {
     transform: translateX(4px);
@@ -196,6 +201,7 @@ body {
   }
   100% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
 }
 .line:nth-child(3) {
@@ -209,6 +215,7 @@ body {
   80% {
     transform: translateX(0);
     color: #fff;
+    font-family: "Kanit";
   }
   85% {
     transform: translateX(3px);
@@ -217,6 +224,7 @@ body {
   90% {
     transform: translateX(3px);
     color: #ac1212;
+    font-family: "Kanit";
   }
   95% {
     transform: translateX(4px);
@@ -237,6 +245,7 @@ body {
   80% {
     transform: translateX(0);
     color: #fff;
+    font-family: "Kanit";
   }
   85% {
     transform: translateX(1px);
@@ -249,6 +258,7 @@ body {
   95% {
     transform: translateX(-4px);
     color: #fff;
+    font-family: "Kanit";
   }
   100% {
     transform: translateX(0);
@@ -261,6 +271,7 @@ body {
 @keyframes glitch5 {
   0% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
   80% {
     transform: translateX(0);
@@ -269,6 +280,7 @@ body {
   85% {
     transform: translateX(1px);
     color: #00b3ff;
+    font-family: "Kanit";
   }
   90% {
     transform: translateX(4px);
@@ -280,6 +292,7 @@ body {
   }
   100% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
 }
 .line:nth-child(6) {
@@ -293,6 +306,7 @@ body {
   80% {
     transform: translateX(0);
     color: #fff;
+    font-family: "Kanit";
   }
   85% {
     transform: translateX(-1px);
@@ -305,6 +319,7 @@ body {
   95% {
     transform: translateX(-3px);
     color: #fff;
+    font-family: "Kanit";
   }
   100% {
     transform: translateX(0);
@@ -317,6 +332,7 @@ body {
 @keyframes glitch7 {
   0% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
   80% {
     transform: translateX(0);
@@ -329,6 +345,7 @@ body {
   90% {
     transform: translateX(2px);
     color: #ac1212;
+    font-family: "Kanit";
   }
   95% {
     transform: translateX(3px);
@@ -336,6 +353,7 @@ body {
   }
   100% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
 }
 .line:nth-child(8) {
@@ -353,6 +371,7 @@ body {
   85% {
     transform: translateX(-1px);
     color: #00b3ff;
+    font-family: "Kanit";
   }
   90% {
     transform: translateX(-3px);
@@ -361,6 +380,7 @@ body {
   95% {
     transform: translateX(1px);
     color: #fff;
+    font-family: "Kanit";
   }
   100% {
     transform: translateX(0);
@@ -373,6 +393,7 @@ body {
 @keyframes glitch9 {
   0% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
   80% {
     transform: translateX(0);
@@ -385,6 +406,7 @@ body {
   90% {
     transform: translateX(0px);
     color: #ac1212;
+    font-family: "Kanit";
   }
   95% {
     transform: translateX(3px);
@@ -392,6 +414,7 @@ body {
   }
   100% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
 }
 .line:nth-child(10) {
@@ -413,6 +436,7 @@ body {
   90% {
     transform: translateX(2px);
     color: #ac1212;
+    font-family: "Kanit";
   }
   95% {
     transform: translateX(0px);
@@ -420,6 +444,7 @@ body {
   }
   100% {
     transform: translateX(0);
+    font-family: "Kanit";
   }
 }
 @keyframes clip {

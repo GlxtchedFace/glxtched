@@ -4,7 +4,7 @@
   color: white;
   list-style: none;
   text-decoration: none;
-  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+  font-family: "Rajdhani", sans-serif;
   cursor: default;
 }
 
@@ -506,10 +506,17 @@ body {
   padding-top: 15rem;
   z-index: -1;
 }
+.persona .glitchPortrait {
+  position: relative;
+  display: flex;
+}
+.persona .glitchPortrait .frontProfile {
+  position: absolute;
+  scale: 1.1;
+}
 .persona .portrait {
   display: flex;
   margin-top: 25vh;
-  background-color: aquamarine;
   height: 400px;
   width: 400px;
 }
@@ -611,7 +618,7 @@ body {
   text-align: justify;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 415px) {
   body {
     height: 100vh;
     background-color: rgb(0, 0, 0);
@@ -622,18 +629,23 @@ body {
     position: fixed;
     display: flex;
     height: 100px;
-    width: 350px;
+    width: 100%;
     gap: 1rem;
     font-size: 1.2rem;
     z-index: 2;
-    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation li {
+    justify-content: center;
+    align-items: center;
   }
   .navBack {
     position: fixed;
     z-index: 1;
     margin-top: 100px;
     height: 100px;
-    width: 350;
+    width: 100%;
     background: linear-gradient(to bottom, hsl(0, 0%, 0%) 0%, hsla(0, 0%, 0%, 0.987) 8.1%, hsla(0, 0%, 0%, 0.951) 15.5%, hsla(0, 0%, 0%, 0.896) 22.5%, hsla(0, 0%, 0%, 0.825) 29%, hsla(0, 0%, 0%, 0.741) 35.3%, hsla(0, 0%, 0%, 0.648) 41.2%, hsla(0, 0%, 0%, 0.55) 47.1%, hsla(0, 0%, 0%, 0.45) 52.9%, hsla(0, 0%, 0%, 0.352) 58.8%, hsla(0, 0%, 0%, 0.259) 64.7%, hsla(0, 0%, 0%, 0.175) 71%, hsla(0, 0%, 0%, 0.104) 77.5%, hsla(0, 0%, 0%, 0.049) 84.5%, hsla(0, 0%, 0%, 0.013) 91.9%, hsla(0, 0%, 0%, 0) 100%);
   }
   .persona {
@@ -648,12 +660,14 @@ body {
     z-index: -1;
     overflow-x: hidden;
   }
-  .persona .portrait {
+  .persona .glitchPortrait {
+    position: relative;
     display: flex;
-    margin-top: 25vh;
-    background-color: aquamarine;
     height: 400px;
-    width: 375px;
+    width: 100%;
+    scale: 0.9;
+    justify-content: center;
+    align-items: center;
   }
   .persona .resume {
     display: flex;
@@ -704,8 +718,8 @@ body {
     -o-object-fit: cover;
     object-fit: cover;
     height: 580px;
-    width: 350px;
-    border-radius: 1rem;
+    width: 100%;
+    border-radius: 0;
     z-index: 1 !important;
   }
   .video .witch1 {
@@ -714,8 +728,8 @@ body {
     -o-object-fit: cover;
     object-fit: cover;
     height: 580px;
-    width: 350px;
-    border-radius: 1rem;
+    width: 100%;
+    border-radius: 0;
     z-index: 1 !important;
     margin-bottom: 200%;
   }
