@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
 * {
   margin: 0;
   padding: 0;
@@ -485,14 +491,14 @@
     align-items: center;
     border-radius: 8px;
     -webkit-backdrop-filter: blur(75px);
-            backdrop-filter: blur(75px);
+    backdrop-filter: blur(75px);
   }
   .contact_flex .enveloppe .icon {
     position: absolute;
     height: 100px;
     display: flex;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     opacity: 1;
     transition: ease-in-out 0.3s;
     z-index: 2;
@@ -703,14 +709,14 @@
     align-items: center;
     border-radius: 8px;
     -webkit-backdrop-filter: blur(75px);
-            backdrop-filter: blur(75px);
+    backdrop-filter: blur(75px);
   }
   .contact_flex .enveloppe .icon {
     position: absolute;
     height: 100px;
     display: flex;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     opacity: 1;
     transition: ease-in-out 0.3s;
     z-index: 2;

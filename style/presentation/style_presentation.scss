@@ -1,3 +1,4 @@
+
 *
 {
     margin: 0;
@@ -37,16 +38,27 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-top: 15rem;
     z-index: -1;
 
 
     .glitchPortrait {
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
 
         .frontProfile {
@@ -57,6 +69,10 @@ body {
 
     .portrait {
 
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
         display: flex;
         margin-top: 25vh;
         height: 400px;
@@ -66,8 +82,13 @@ body {
     }
 
     .resume {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding-top: 10vh;
         width: 40%;
         text-align: justify;
@@ -89,16 +110,27 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     z-index: -1;
     padding-bottom: 15vh;
     padding-top: 5vh;
 
 
    .sketch_vid {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
     height: 750px;
@@ -112,16 +144,27 @@ body {
 .video {
     gap: 8vw;
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     height: 80vh;
     width: 100%;
     z-index: 0;
 
     .sirene {
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         -o-object-fit: cover;
         object-fit: cover;
@@ -135,6 +178,8 @@ body {
     
     .witch1 {
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         -o-object-fit: cover;
         object-fit: cover;
@@ -154,10 +199,19 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
 }
 
@@ -166,15 +220,27 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 10%;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-bottom: 20vh;
 
     .explication_paint1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 40%;
         text-align: justify;
     
@@ -194,18 +260,28 @@ body {
 
     .navigation {
         position: fixed;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 100px;
         width: 100%;
         gap: 1rem;
         font-size: 1.2rem;
         z-index: 2;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 
         li {
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
 
     }
@@ -216,6 +292,45 @@ body {
         margin-top: 100px;
         height: 100px;
         width: 100%;
+        background: -webkit-gradient(
+            linear,
+            left top, left bottom,
+            from(hsl(0, 0%, 0%)),
+            color-stop(8.1%, hsla(0, 0%, 0%, 0.987)),
+            color-stop(15.5%, hsla(0, 0%, 0%, 0.951)),
+            color-stop(22.5%, hsla(0, 0%, 0%, 0.896)),
+            color-stop(29%, hsla(0, 0%, 0%, 0.825)),
+            color-stop(35.3%, hsla(0, 0%, 0%, 0.741)),
+            color-stop(41.2%, hsla(0, 0%, 0%, 0.648)),
+            color-stop(47.1%, hsla(0, 0%, 0%, 0.55)),
+            color-stop(52.9%, hsla(0, 0%, 0%, 0.45)),
+            color-stop(58.8%, hsla(0, 0%, 0%, 0.352)),
+            color-stop(64.7%, hsla(0, 0%, 0%, 0.259)),
+            color-stop(71%, hsla(0, 0%, 0%, 0.175)),
+            color-stop(77.5%, hsla(0, 0%, 0%, 0.104)),
+            color-stop(84.5%, hsla(0, 0%, 0%, 0.049)),
+            color-stop(91.9%, hsla(0, 0%, 0%, 0.013)),
+            to(hsla(0, 0%, 0%, 0))
+          );
+        background: -o-linear-gradient(
+            top,
+            hsl(0, 0%, 0%) 0%,
+            hsla(0, 0%, 0%, 0.987) 8.1%,
+            hsla(0, 0%, 0%, 0.951) 15.5%,
+            hsla(0, 0%, 0%, 0.896) 22.5%,
+            hsla(0, 0%, 0%, 0.825) 29%,
+            hsla(0, 0%, 0%, 0.741) 35.3%,
+            hsla(0, 0%, 0%, 0.648) 41.2%,
+            hsla(0, 0%, 0%, 0.55) 47.1%,
+            hsla(0, 0%, 0%, 0.45) 52.9%,
+            hsla(0, 0%, 0%, 0.352) 58.8%,
+            hsla(0, 0%, 0%, 0.259) 64.7%,
+            hsla(0, 0%, 0%, 0.175) 71%,
+            hsla(0, 0%, 0%, 0.104) 77.5%,
+            hsla(0, 0%, 0%, 0.049) 84.5%,
+            hsla(0, 0%, 0%, 0.013) 91.9%,
+            hsla(0, 0%, 0%, 0) 100%
+          );
         background: linear-gradient(
             to bottom,
             hsl(0, 0%, 0%) 0%,
@@ -244,10 +359,19 @@ body {
         position: relative;
         height: 100%;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding-top: 15rem;
         z-index: -1;
         overflow-x: hidden;
@@ -255,12 +379,18 @@ body {
     
         .glitchPortrait {
             position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             height: 400px;
             width: 100%;
             scale: 0.9;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             
 
     
@@ -268,8 +398,13 @@ body {
         }
     
         .resume {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             padding-top: 10vh;
             width: 70%;
             text-align: justify;
@@ -292,16 +427,27 @@ body {
         position: relative;
         height: 100%;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         z-index: -1;
         padding-bottom: 15vh;
         padding-top: 5vh;
     
     
        .sketch_vid {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     
         height: 750px;
@@ -315,16 +461,27 @@ body {
     .video {
         gap: 8vw;
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: 80vh;
         width: 100%;
         z-index: 0;
     
         .sirene {
             position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             -o-object-fit: cover;
             object-fit: cover;
@@ -338,6 +495,8 @@ body {
         
         .witch1 {
             position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             -o-object-fit: cover;
             object-fit: cover;
@@ -358,10 +517,19 @@ body {
         position: relative;
         height: 100%;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     
     }
     
@@ -370,15 +538,29 @@ body {
         position: relative;
         height: 100%;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     
         .explication_paint1 {
             position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
             width: 70%;
             text-align: justify;
         }
@@ -386,4 +568,3 @@ body {
     
     }
 }   
-

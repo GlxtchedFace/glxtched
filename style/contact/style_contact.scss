@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 *
 {
     margin: 0;
@@ -35,17 +42,29 @@
         height: 100vh;
         width: 100%;
         background-color: rgb(0, 0, 0);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         
         .enveloppe {
             height: 500px;
             width: 700px;
             position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             
     
             .front {
@@ -53,13 +72,22 @@
                 height: 400px;
                 width: 600px;
                 background-color: rgba(35, 35, 35, 0.786);
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 z-index: 1;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
-                justify-content: center;
-                align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 border-radius: 8px;
-                backdrop-filter: blur(75px);
+                -webkit-backdrop-filter: blur(75px);
+                        backdrop-filter: blur(75px);
     
     
             }
@@ -67,9 +95,14 @@
             .icon {
                 position: absolute;
                 height: 100px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                object-fit: cover;
+                -o-object-fit: cover;
+                   object-fit: cover;
                 opacity: 1;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
                 z-index: 2;
             }
@@ -79,10 +112,17 @@
                 height: 300px;
                 width: 500px;
                 background-color: beige;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 z-index: 0;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
     
                 h2 {
                     padding: 10px 15px;
@@ -110,14 +150,24 @@
                 border-radius: 15px;
                 background-color: rgba(112, 171, 248, 0);
                 border: 6px solid rgba(17, 17, 17, 0);
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 z-index: 2;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
                 opacity: 0;
-                justify-content: center;
-                align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
     
                 .item {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
                     height: 340px;
                     overflow: hidden;
@@ -133,18 +183,35 @@
     
                         form {
     
+                            display: -webkit-box;
+    
+                            display: -ms-flexbox;
+    
                             display: flex;
                             height: 260px;
                             width: 400px;
                         
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                        
+                            -webkit-box-direction: normal;
+                        
+                                -ms-flex-direction: column;
+                        
+                                    flex-direction: column;
                             position: relative;
                         
     
                             .inputBox1 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 gap: 26px;
                                 position: relative;
                                 margin-bottom: 10px;
@@ -152,34 +219,59 @@
     
                             
                             .inputBox2 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 position: relative;
                                 margin-bottom: 10px;
                             
                             }
     
                             .inputBox3 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 position: relative;
                                 margin-bottom: 10px;
                             }
     
                             .inputBox4 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 position: relative;
                                 margin-bottom: 20px;
                             }
     
                             .inputBox5 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
                                 position: relative;
-                                justify-content: center;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
     
                             }
     
@@ -227,9 +319,15 @@
                                 outline-style: none;
                                 height: 30px;
                                 width: 80px;
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                align-items: center;
-                                justify-content: center;
+                                -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                        align-items: center;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
     
                             }
     
@@ -244,19 +342,27 @@
     }
     
     .enveloppe:hover .front {
-        transform: translateY(90px);
+        -webkit-transform: translateY(90px);
+            -ms-transform: translateY(90px);
+                transform: translateY(90px);
     
     }
     .enveloppe:hover .feuille {
-        transform: translateY(-40px);
+        -webkit-transform: translateY(-40px);
+            -ms-transform: translateY(-40px);
+                transform: translateY(-40px);
     }
     
     .enveloppe:hover .icon {
-        transform: translateY(90px);
+        -webkit-transform: translateY(90px);
+            -ms-transform: translateY(90px);
+                transform: translateY(90px);
         opacity: 0;
     }
     .enveloppe:hover .form {
-        transform: translateY(90px);
+        -webkit-transform: translateY(90px);
+            -ms-transform: translateY(90px);
+                transform: translateY(90px);
         opacity: 1;
     }
     
@@ -275,18 +381,28 @@
 
     .navigation {
         position: fixed;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         height: 100px;
         width: 100%;
         gap: 1rem;
         font-size: 1.2rem;
         z-index: 2;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 
         li {
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
         }
 
     }
@@ -297,6 +413,45 @@
         margin-top: 100px;
         height: 100px;
         width: 100%;
+        background: -webkit-gradient(
+            linear,
+            left top, left bottom,
+            from(hsl(0, 0%, 0%)),
+            color-stop(8.1%, hsla(0, 0%, 0%, 0.987)),
+            color-stop(15.5%, hsla(0, 0%, 0%, 0.951)),
+            color-stop(22.5%, hsla(0, 0%, 0%, 0.896)),
+            color-stop(29%, hsla(0, 0%, 0%, 0.825)),
+            color-stop(35.3%, hsla(0, 0%, 0%, 0.741)),
+            color-stop(41.2%, hsla(0, 0%, 0%, 0.648)),
+            color-stop(47.1%, hsla(0, 0%, 0%, 0.55)),
+            color-stop(52.9%, hsla(0, 0%, 0%, 0.45)),
+            color-stop(58.8%, hsla(0, 0%, 0%, 0.352)),
+            color-stop(64.7%, hsla(0, 0%, 0%, 0.259)),
+            color-stop(71%, hsla(0, 0%, 0%, 0.175)),
+            color-stop(77.5%, hsla(0, 0%, 0%, 0.104)),
+            color-stop(84.5%, hsla(0, 0%, 0%, 0.049)),
+            color-stop(91.9%, hsla(0, 0%, 0%, 0.013)),
+            to(hsla(0, 0%, 0%, 0))
+          );
+        background: -o-linear-gradient(
+            top,
+            hsl(0, 0%, 0%) 0%,
+            hsla(0, 0%, 0%, 0.987) 8.1%,
+            hsla(0, 0%, 0%, 0.951) 15.5%,
+            hsla(0, 0%, 0%, 0.896) 22.5%,
+            hsla(0, 0%, 0%, 0.825) 29%,
+            hsla(0, 0%, 0%, 0.741) 35.3%,
+            hsla(0, 0%, 0%, 0.648) 41.2%,
+            hsla(0, 0%, 0%, 0.55) 47.1%,
+            hsla(0, 0%, 0%, 0.45) 52.9%,
+            hsla(0, 0%, 0%, 0.352) 58.8%,
+            hsla(0, 0%, 0%, 0.259) 64.7%,
+            hsla(0, 0%, 0%, 0.175) 71%,
+            hsla(0, 0%, 0%, 0.104) 77.5%,
+            hsla(0, 0%, 0%, 0.049) 84.5%,
+            hsla(0, 0%, 0%, 0.013) 91.9%,
+            hsla(0, 0%, 0%, 0) 100%
+          );
         background: linear-gradient(
             to bottom,
             hsl(0, 0%, 0%) 0%,
@@ -325,16 +480,28 @@
         position: relative;
         height: 100%;
         width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     
         .enveloppe {
             height: 500px;
             width: 419px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             
     
             .front {
@@ -342,13 +509,22 @@
                 height: 520px;
                 width: 380px;
                 background-color: rgba(35, 35, 35, 0.786);
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 z-index: 1;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
-                justify-content: center;
-                align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
                 border-radius: 8px;
-                backdrop-filter: blur(75px);
+                -webkit-backdrop-filter: blur(75px);
+                        backdrop-filter: blur(75px);
     
     
             }
@@ -356,9 +532,14 @@
             .icon {
                 position: absolute;
                 height: 100px;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
-                object-fit: cover;
+                -o-object-fit: cover;
+                   object-fit: cover;
                 opacity: 1;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
                 z-index: 2;
             }
@@ -368,10 +549,17 @@
                 height: 400px;
                 width: 300px;
                 background-color: beige;
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 z-index: 0;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
-                flex-direction: column;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                    -ms-flex-direction: column;
+                        flex-direction: column;
     
                 h2 {
                     padding: 10px 15px;
@@ -399,14 +587,24 @@
                 border-radius: 15px;
                 background-color: rgba(112, 171, 248, 0);
                 border: 6px solid rgba(17, 17, 17, 0);
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex;
                 z-index: 2;
+                -webkit-transition: ease-in-out 0.3s;
+                -o-transition: ease-in-out 0.3s;
                 transition: ease-in-out 0.3s;
                 opacity: 0;
-                justify-content: center;
-                align-items: center;
+                -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                        justify-content: center;
+                -webkit-box-align: center;
+                    -ms-flex-align: center;
+                        align-items: center;
     
                 .item {
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
                     height: 340px;
                     z-index: 3;
@@ -423,18 +621,35 @@
     
                         form {
     
+                            display: -webkit-box;
+    
+                            display: -ms-flexbox;
+    
                             display: flex;
                             height: 260px;
                             width: 400px;
                         
-                            flex-direction: column;
+                            -webkit-box-orient: vertical;
+                        
+                            -webkit-box-direction: normal;
+                        
+                                -ms-flex-direction: column;
+                        
+                                    flex-direction: column;
                             position: relative;
                         
     
                             .inputBox1 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 gap: 26px;
                                 position: relative;
                                 margin-bottom: 10px;
@@ -442,34 +657,59 @@
     
                             
                             .inputBox2 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 position: relative;
                                 margin-bottom: 10px;
                             
                             }
     
                             .inputBox3 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 position: relative;
                                 margin-bottom: 10px;
                             }
     
                             .inputBox4 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                flex-direction: row;
-                                justify-content: center;
+                                -webkit-box-orient: horizontal;
+                                -webkit-box-direction: normal;
+                                    -ms-flex-direction: row;
+                                        flex-direction: row;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 position: relative;
                                 margin-bottom: 20px;
                             }
     
                             .inputBox5 {
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
                                 position: relative;
-                                justify-content: center;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
     
                             }
     
@@ -521,9 +761,15 @@
                                 outline-style: none;
                                 height: 40px;
                                 width: 90px;
+                                display: -webkit-box;
+                                display: -ms-flexbox;
                                 display: flex;
-                                align-items: center;
-                                justify-content: center;
+                                -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                        align-items: center;
+                                -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                        justify-content: center;
                                 font-size: 20px;
                                 margin-top: 15px;
     
@@ -537,19 +783,27 @@
         }
     
         .enveloppe:hover .front {
-            transform: translateY(90px);
+            -webkit-transform: translateY(90px);
+                -ms-transform: translateY(90px);
+                    transform: translateY(90px);
         
         }
         .enveloppe:hover .feuille {
-            transform: translateY(-40px);
+            -webkit-transform: translateY(-40px);
+                -ms-transform: translateY(-40px);
+                    transform: translateY(-40px);
         }
         
         .enveloppe:hover .icon {
-            transform: translateY(90px);
+            -webkit-transform: translateY(90px);
+                -ms-transform: translateY(90px);
+                    transform: translateY(90px);
             opacity: 0;
         }
         .enveloppe:hover .form {
-            transform: translateY(90px);
+            -webkit-transform: translateY(90px);
+                -ms-transform: translateY(90px);
+                    transform: translateY(90px);
             opacity: 1;
         }
         
