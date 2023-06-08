@@ -1,0 +1,39 @@
+.main_container {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 50px;
+            perspective: 50px;
+    background-color: black;
+
+}
+
+.backToGallery {
+    height: 20vh;
+    background-color: black;
+    @include align-center;
+}
+
+
+
+
+
+#intro {
+    margin-top: 200px;
+    padding-bottom: 100px;
+    background-color: rgb(0, 0, 0) opacify($color: #000000de, $amount: 0);
+    height: 30vh;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#outro {
+    margin-top: -200px;
+    padding-bottom:800px;
+    background-color: rgb(0, 0, 0) opacify($color: #000000de, $amount: 0);
+    height: 30vh;
+    -webkit-backdrop-filter: blur(70px);
+            backdrop-filter: blur(70px);
+}
